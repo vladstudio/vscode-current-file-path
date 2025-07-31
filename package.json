@@ -1,5 +1,5 @@
 {
-  "name": "current-file-path",
+  "name": "vladstudio-current-file-path",
   "displayName": "Current File Path",
   "description": "Shows the current file path in the status bar",
   "version": "1.0.0",
