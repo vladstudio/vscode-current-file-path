@@ -8,7 +8,7 @@
   },
   "categories": ["Other"],
   "main": "./out/extension.js",
-  "icon": "icon.svg",
+  "icon": "icon.png",
   "activationEvents": [
     "onStartupFinished"
   ],
