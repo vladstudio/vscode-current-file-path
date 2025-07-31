@@ -4,6 +4,10 @@
   "description": "Shows the current file path in the status bar",
   "version": "1.0.0",
   "publisher": "vladstudio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladstudio/vscode-current-file-path.git"
+  },
   "engines": {
     "vscode": "^1.102.0"
   },
