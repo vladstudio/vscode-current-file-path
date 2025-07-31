@@ -1,4 +1,4 @@
-# Current File Path
+# Current File Path in Status Bar
 
 <img src="icon.png" alt="Current File Path" width="128" height="128">
 
