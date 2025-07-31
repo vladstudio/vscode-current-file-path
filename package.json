@@ -1,6 +1,6 @@
 {
-  "name": "vladstudio-current-file-path",
-  "displayName": "Current File Path",
+  "name": "current-file-path-in-statusbar",
+  "displayName": "Current File Path in Status Bar",
   "description": "Shows the current file path in the status bar",
   "version": "1.0.0",
   "publisher": "vladstudio",
