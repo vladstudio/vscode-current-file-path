@@ -3,10 +3,29 @@
   "displayName": "Current File Path",
   "description": "Shows the current file path in the status bar",
   "version": "1.0.0",
+  "publisher": "vladstudio",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.102.0"
   },
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "file path",
+    "status bar",
+    "copy path",
+    "current file",
+    "file location",
+    "breadcrumb",
+    "file explorer",
+    "workspace",
+    "relative path",
+    "absolute path",
+    "clipboard",
+    "file navigation",
+    "developer tools",
+    "productivity"
+  ],
   "main": "./out/extension.js",
   "icon": "icon.png",
   "activationEvents": [
