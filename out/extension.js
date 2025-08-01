@@ -38,7 +38,11 @@ function activate(context) {
                 ? vscode.workspace.asRelativePath(activeEditor.document.uri, false)
                 : activeEditor.document.uri.fsPath;
             vscode.env.clipboard.writeText(filePath);
-            vscode.window.showInformationMessage('File path copied to clipboard');
+            statusBarItem.text = '$(check) Copied to clipboard';
+            statusBarItem.tooltip = 'File path copied to clipboard';
+            setTimeout(() => {
+                updateStatusBar();
+            }, 3000);
         }
     });
     context.subscriptions.push(copyCommand);
